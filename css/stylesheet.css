@@ -76,7 +76,9 @@ main {
     width: 30%;
 }
 
-
+input {
+    background-color: #1D1F31;
+}
 
 
 
