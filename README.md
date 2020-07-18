@@ -1,1 +1,1 @@
-This is the latest update of the warp trail default web page
+This is an app that lists all the repositories for an inputed username. 
