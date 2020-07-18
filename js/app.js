@@ -29,11 +29,12 @@ const extractData = function(data){
 };
 
 function createTemplate (name, url, createDate, description) {
-  return `<li> ${name} <br> ${url} <br> ${createDate} </br> ${description} </li>`;
+  return `<li> <h2>${name}</h2> <a href="${url}">${url}</a> <br> ${createDate} </br></br> ${description} </li>`;
 }
 
 const handleFormSubmit = function () {
   $('#gh').submit((event) => {
+    $('.repo').html('');
     let username = $('input').val();
     event.preventDefault();
     console.log(username);
